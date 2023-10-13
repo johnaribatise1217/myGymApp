@@ -1,0 +1,165 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10rem;
+    background: var(--color-gray-500);
+    padding-bottom: 50px;
+    max-width: 550px;
+    border-radius: 50px;
+}
+
+.log-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.text{
+    color: var(--color-gray-200);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background: var(--color-gray-200);
+    border-radius: 10px;
+}
+
+.inputs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: var(--color-gray-400);
+    border-radius: 8px;
+}
+
+.input .icon{
+    margin: 0px 35px;
+    font-size: 30px;
+    color: var(--color-gray-100);
+}
+
+.input input{
+    height: 50px;
+    width: 85%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--color-gray-100);
+    font-size: 21px;
+}
+
+.pass-test{
+    margin: 0 35px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16.5px;
+}
+
+.passed{
+    text-decoration: line-through;
+}
+
+
+.eye{
+    cursor: pointer;
+}
+
+.forgot-pass{
+    padding-left: 60px;
+    margin-top: 27px;
+    color: var(--color-gray-100);
+    font-size: 18px;
+}
+
+.forgot-pass span{
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: var(--color-gray-100);
+    background: var(--color-primary);
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.gray {
+    background: var(--color-gray-200);
+    color: white;
+}
+
+.loader-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.834) url("https://media.giphy.com/media/8agqybiK5LW8qrG3vJ/giphy.gif") center no-repeat;
+    z-index: 1;
+}
+
+.spinner {
+    width: 64px;
+    height: 64px;
+    border: 8px solid;
+    border-color: #3d5af1 transparent;
+    border-radius: 50%;
+    animation: spin-anim 1.2s linear infinite;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+@keyframes spin-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .login-container{
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .input{
+        max-width: 95%;
+        height: 60px;
+    }
+
+    .submit-container{
+        max-width: 90%;
+    }
+}

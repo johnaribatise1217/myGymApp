@@ -1,0 +1,9 @@
+.notfound-con{
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.notfound-con .btn {
+    margin-top: 2rem;
+    display: block;
+}
