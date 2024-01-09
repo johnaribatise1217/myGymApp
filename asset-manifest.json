@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b68110a.css",
-    "main.js": "/static/js/main.df728e4a.js",
-    "static/media/header3.jpg": "/static/media/header3.1bd469eb828e2ec43158.jpg",
-    "static/media/header2.jpg": "/static/media/header2.ee5b2f298916745b9816.jpg",
-    "static/media/gallery5.jpg": "/static/media/gallery5.1011ec1d5560f735bb0d.jpg",
-    "static/media/trainer3.jpg": "/static/media/trainer3.d3165d2963ade0203e2f.jpg",
-    "static/media/trainer4.jpg": "/static/media/trainer4.b1c38910c30ca572bdb8.jpg",
-    "static/media/gallery6.jpg": "/static/media/gallery6.e74ed1c409e16e8852f0.jpg",
-    "static/media/gallery2.jpg": "/static/media/gallery2.cc951b4bfe418cbcc2a9.jpg",
-    "static/media/gallery1.jpg": "/static/media/gallery1.76f9b791de15644142c6.jpg",
-    "static/media/gallery3.jpg": "/static/media/gallery3.f80e440a7edccbc73972.jpg",
-    "static/media/about.jpg": "/static/media/about.2a910089f2cea40b3000.jpg",
-    "index.html": "/index.html",
-    "main.2b68110a.css.map": "/static/css/main.2b68110a.css.map",
-    "main.df728e4a.js.map": "/static/js/main.df728e4a.js.map"
+    "main.css": "/myGymApp/static/css/main.2b68110a.css",
+    "main.js": "/myGymApp/static/js/main.e97ea788.js",
+    "static/media/header3.jpg": "/myGymApp/static/media/header3.1bd469eb828e2ec43158.jpg",
+    "static/media/header2.jpg": "/myGymApp/static/media/header2.ee5b2f298916745b9816.jpg",
+    "static/media/gallery5.jpg": "/myGymApp/static/media/gallery5.1011ec1d5560f735bb0d.jpg",
+    "static/media/trainer3.jpg": "/myGymApp/static/media/trainer3.d3165d2963ade0203e2f.jpg",
+    "static/media/trainer4.jpg": "/myGymApp/static/media/trainer4.b1c38910c30ca572bdb8.jpg",
+    "static/media/gallery6.jpg": "/myGymApp/static/media/gallery6.e74ed1c409e16e8852f0.jpg",
+    "static/media/gallery2.jpg": "/myGymApp/static/media/gallery2.cc951b4bfe418cbcc2a9.jpg",
+    "static/media/gallery1.jpg": "/myGymApp/static/media/gallery1.76f9b791de15644142c6.jpg",
+    "static/media/gallery3.jpg": "/myGymApp/static/media/gallery3.f80e440a7edccbc73972.jpg",
+    "static/media/about.jpg": "/myGymApp/static/media/about.2a910089f2cea40b3000.jpg",
+    "index.html": "/myGymApp/index.html",
+    "main.2b68110a.css.map": "/myGymApp/static/css/main.2b68110a.css.map",
+    "main.e97ea788.js.map": "/myGymApp/static/js/main.e97ea788.js.map"
   },
   "entrypoints": [
     "static/css/main.2b68110a.css",
-    "static/js/main.df728e4a.js"
+    "static/js/main.e97ea788.js"
   ]
 }
