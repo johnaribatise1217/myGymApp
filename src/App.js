@@ -2,7 +2,6 @@ import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Contact from './Pages/Contact/Contact'
 import Gallery from './Pages/Gallery/Gallery'
-import NotFound from './Pages/NotFound/NotFound'
 import Plans from './Pages/Plans/Plans'
 import Trainers from './Pages/Trainers/Trainers'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
@@ -13,7 +12,7 @@ import Footer from './Footer/Footer'
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar/>
       <Routes>
         <Route index path='/' element={<Home/>}/>
@@ -26,7 +25,7 @@ function App() {
         <Route path='/signup' element={<SignUp/>}/>
       </Routes>
       <Footer/>
-    </BrowserRouter>
+    </>
   );
 }
 
